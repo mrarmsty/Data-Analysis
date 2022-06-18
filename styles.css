@@ -1,0 +1,332 @@
+*{
+    box-sizing: border-box;
+}
+body{
+ font-family: "Ubuntu";
+text-align: center;
+display: grid;
+}
+.colored-section{
+    background-color: #112031;
+    color: #D4ECDD;
+}
+.big-heading{
+    text-align: left;
+    margin-left: 15%;
+    margin-top: 10px;
+}
+
+
+/* nav-bar */
+#title{
+    z-index: 1000;
+}
+.navbar-brand img{
+    width: 6%;
+    height: 15%;
+    padding: 1%;
+}
+
+.navbar{
+    background-color: #112031;
+    padding:0;
+    position:fixed ;
+}
+
+.navbar-nav{
+    padding-right: 50px;
+ 
+}
+/* .navbar{
+    padding-bottom: 4.5rem;
+} */
+.navbar-brand{
+    /* font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: 100px; */
+    padding: 0;
+    margin-left: 0;
+}
+.nav-item{
+    padding: 0 10px;
+ 
+}
+.nav-link{
+    font-size: 1.1rem;
+    /* font-family: "Montserrat-light"; */
+    color: #D4ECDD;  
+}
+.nav-link:hover{
+    color: #90a398;
+}
+/* .navbar-toggler{
+    background-color: #D4ECDD;
+
+}
+.navbar-toggler-icon{
+    background-color: #112031;
+} */
+
+
+/* Home section */
+
+.container-fluid{
+    padding: 6% 8% 5%;
+}
+
+.title-image{
+    width: 50%;
+    height: 90%;
+}
+.first-image{
+    padding-top: 40px;
+    padding-bottom: 0px;
+}
+.about{
+    padding-top: 40px;
+}
+.first-button{
+   margin-top: 5px;
+   margin-right: 10px;
+}
+.name{
+    text-align: center;
+    width: 50%;
+    padding-top: 0px;
+    margin-top: 0;
+}
+.name1{
+    font-size: xx-large;
+}
+.profession{
+    font-size:large;
+}
+
+/* <!-- The Random quote and data analytics section --> */
+
+.random-quote{
+    background-color: #D4ECDD;
+    color: #112031;
+    padding: 15px;
+    font-size: larger;
+}
+
+/* Data analytics and image */
+
+.kings h2{
+    text-align: left;
+    margin-left: 15%;
+}
+.analytics{
+    background-color: transparent;
+   padding: 2px;
+   border-radius: 100%;
+}
+hr{
+    width: 50%;
+    margin-left: 25%;
+}
+.analytics-img{
+    width: 70%;
+    height: 100%;
+    border-radius: 100%;
+    box-shadow: 5px 5px 5px #112031;
+    
+}
+.analytics-text{
+    /* background-color: #fcfffd; */
+    color: #112031;
+    padding: 10px;
+}
+.kings{
+    padding: 0;
+}
+.armsty{
+    margin-bottom: 200px;
+    text-decoration: underline;
+}
+
+/* project carousel */
+
+.carousel-inner{
+    padding: 5%; 
+}
+.carousel-text{
+    padding-bottom: 10px;
+    padding-right: 70px;
+}
+.active img{
+    width: 45%;
+    height: 100%;
+    /* border-radius: 20%; */
+}
+.second-button{
+    margin-left: 10px;
+    padding: 5PX 20PX;
+}
+#project{
+    position: sticky;
+}
+
+
+/* Skills/tools section */
+.tools img{
+    width: 15%;
+    height: 70%;
+    border-radius: 50%;
+    color: #112031;
+
+}
+.tools{
+    background-color: #e9e9e9;
+    /* border-radius: 100%; */
+    padding: 0;
+    margin: 0px 3px;
+    box-shadow: 10px 10px 30px #112031;
+    width: 31%;
+
+
+}
+.skills{
+    background-color: #e9e9e9;
+    padding: 0px 170px;
+
+}
+
+.skills h2{
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    color: #112031;
+}
+/* Certifications */
+
+#certifications{
+    background-color: #93aa9c;
+}
+
+
+/* contact me section */
+#contact-me{
+    background-color: #112031;
+    color: #D4ECDD;
+    padding-top: 5%;
+}
+#last-p{
+    font-size: 0.75rem;
+    padding: 15 px 0;
+    color: grey;
+  }
+  #last-p a{
+    text-decoration: underline;
+  }
+  .btn-0{
+    border-radius: 8px;
+      color: #112031;
+      font-size: 20px;
+      padding: 10px 20px 10px 20px;
+      text-decoration: none;
+      background: #93aa9c;
+
+  }
+  .btn-0:hover {
+    background: grey;
+     text-decoration: none;
+  }
+  .bottom-container{
+    margin: 5% 0 0 0;
+  }
+  .bottom-container a {
+    color: grey;
+    text-decoration: none;
+    margin-right: 35px;
+
+  }
+  a:hover{
+    color: white;
+  }
+
+
+
+
+/* Medium screen */
+
+@media only screen and (min-width: 992px) and (max-width: 1300px) {
+    /* .navbar{
+        background-color: #323f4e;
+        padding:0;
+        position:fixed ;
+    } */
+    .title-image{
+        width: 60%;
+        height: 90%;
+    }
+    .name{
+        text-align: center;
+        width: 50%;
+        margin-top: 0px;
+        padding-top: 0;
+    }
+}
+@media only screen and (max-width: 991px){
+    .name{
+        display: none;
+    }
+    .analytics-text{
+        font-size: large;
+        padding: 20px;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 990px) {
+    .title-image{
+        width: 40%;
+    }
+    .analytics-text{
+        font-size: large;
+    }
+    .analytics-img{
+        width: 60%;
+        height: 90%;
+    }
+
+}
+@media only screen and (min-width: 992px) and (max-width: 1077px) {
+    .title-image{
+        width: 70%;
+        height: 85%;
+    }
+}
+
+/* small screen */
+
+@media only screen and (max-width: 720px) {
+    .tools{
+        background-color: #e9e9e9;
+        /* border-radius: 100%; */
+        padding: 0;
+        margin: 0px 1.5px;
+        box-shadow: 10px 10px 30px #112031;
+        width: 31%;
+        height: 100%;
+    
+    }
+    .tools img{
+        width: 70%;
+        height: 80%;
+        border-radius: 50%;
+        color: #112031;
+    }
+    .tools span{
+        font-size: 9px;
+    }    
+    .skills h2{
+        text-align: left;
+        margin: 10px 0 20px 10px;
+        color: #112031;
+    }
+    /* .big-heading{
+        text-align: center;
+    } */
+    
+    }
