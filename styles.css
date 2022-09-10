@@ -5,7 +5,7 @@ body{
  font-family: "Ubuntu";
 text-align: center;
 display: grid;
-o verflow-x:hidden;
+overflow-x:hidden;
 }
 .colored-section{
     background-color: #112031;
